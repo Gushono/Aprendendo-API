@@ -1,0 +1,24 @@
+  {% extends 'index.html' %}
+
+
+  {% block title %}{{ super()}} - Confirmado{% endblock %}
+  {% block content %}
+
+
+
+
+      <div>
+        <h1>Cidade pesquisada: {{dadostempo['name']}}</h1>
+        <h1>Estado: {{dadostempo['state']}}</h1>
+        <h1>Temperatura: {{dadostempo['data']['temperature']}}</h1>
+      </div>
+
+       
+
+
+
+
+
+
+
+     {% endblock %} 
